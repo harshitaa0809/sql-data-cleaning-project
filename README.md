@@ -1,4 +1,4 @@
-# sql-data-cleaning-project
+
 # SQL Data Cleaning Project
 
 This project is part of my SQL learning journey where I worked on cleaning a layoffs dataset using MySQL.
@@ -39,5 +39,3 @@ The dataset contains layoff information from different companies and industries.
 This project helped me understand how important data cleaning is before performing any analysis. I also got hands-on practice with CTEs, window functions, and working with missing or inconsistent data.
 
 ---
-Harshita Raon Engineering | AI & ML Honours  
-Aspiring Data Analyst
