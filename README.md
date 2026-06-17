@@ -1,70 +1,43 @@
 # sql-data-cleaning-project
-# 🧹 SQL Data Cleaning Project: Layoffs Dataset
+# SQL Data Cleaning Project
 
-## 📖 Project Overview
-Raw data often contains inconsistencies, duplicate records, missing values, and formatting issues that can impact analysis. In this project, I used MySQL to clean and transform a real-world layoffs dataset into a structured, reliable, and analysis-ready format.
+This project is part of my SQL learning journey where I worked on cleaning a layoffs dataset using MySQL.
 
-## 🎯 Business Goal
-Prepare the dataset for accurate reporting and exploratory data analysis by improving data quality and consistency.
+The goal was to identify common data quality issues and prepare the dataset for further analysis.
 
-## 🔍 Data Quality Issues Addressed
-✔️ Duplicate Records  
-✔️ Missing Values  
-✔️ Inconsistent Text Formatting  
-✔️ Incorrect Date Formats  
-✔️ Blank Fields  
-✔️ Unnecessary Columns
+## What I did
 
-## ⚙️ Data Cleaning Workflow
-### 1. Data Inspection
-- Reviewed the dataset structure
-- Identified quality issues and inconsistencies
-
-### 2. Duplicate Removal
-- Used `ROW_NUMBER()` and CTEs to identify duplicate records
-- Removed redundant entries
-
-### 3. Data Standardization
-- Standardized company names
-- Standardized industry categories
-- Corrected country naming inconsistencies
-
-### 4. Missing Value Treatment
-- Converted blank values to NULL
-- Populated missing industry values where possible using SQL joins
-
-### 5. Date Formatting
-- Converted text-based dates into MySQL DATE format
-
-### 6. Final Data Preparation
+- Checked the dataset for duplicate records
+- Removed duplicates using ROW_NUMBER()
+- Standardized company names and other text fields
+- Converted date columns into proper date format
+- Handled null and blank values
+- Filled missing industry values where possible
 - Removed unnecessary columns
-- Generated a clean dataset ready for analysis
 
-## 💡 SQL Skills Demonstrated
-- Common Table Expressions (CTEs)
+## SQL Concepts Used
+
+- CTEs
 - Window Functions
 - ROW_NUMBER()
-- JOIN Operations
-- UPDATE Statements
-- DELETE Statements
-- ALTER TABLE
-- Data Cleaning Techniques
+- Joins
+- Update Statements
+- Delete Statements
+- Alter Table
 
-## 🛠️ Tools Used
-- MySQL
-- SQL
+## Files Included
 
-## 📂 Repository Contents
-| File | Description |
-|--------|-------------|
-| Data_Cleaning Project.sql | Complete SQL cleaning workflow |
-| layoffs.csv | Raw dataset used in the project |
+- Data_Cleaning Project.sql
+- layoffs.csv
 
-## 🚀 Key Outcome
-Successfully transformed raw layoff data into a clean, standardized, and analysis-ready dataset, establishing a strong foundation for further exploratory and business analysis.
+## About the Dataset
+
+The dataset contains layoff information from different companies and industries. It was used to practice real-world data cleaning techniques in SQL.
+
+## What I Learned
+
+This project helped me understand how important data cleaning is before performing any analysis. I also got hands-on practice with CTEs, window functions, and working with missing or inconsistent data.
 
 ---
-### 👩‍💻 Author
-**Harshita Rao**  
-Electronics & Telecommunication Engineering | AI & ML Honours  
+Harshita Raon Engineering | AI & ML Honours  
 Aspiring Data Analyst
